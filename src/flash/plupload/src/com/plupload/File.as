@@ -81,17 +81,6 @@ package com.plupload {
 			return this._size;
 		}
 
-		/**
-		 * File data property.
-		 */
-		public function get data():String {
-			return this._data;
-		}
-		
-		public function set data(value: String) : void {
-			this._data = value;;
-		}
-		
 		
 		/**
 		 * Constructs a new file object.
